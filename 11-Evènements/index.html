@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Object Model</title>
+    <script defer src="js/main.js"></script>
+</head>
+<body>
+    <!-- V1- écouteur d'énèvement onclick en HTML avec "this" -->
+    <h1 onclick="clic(this,'blue')">Bouton 1</h1>
+    <h1 onclick="clic(this,'orange')">Bouton 2</h1>
+    <!-- V2 - Utilisation de "event" -->
+    <h2 onclick="clicE(event,'lime')">Bouton 3</h2>
+    <h2 onclick="clicE(event,'cyan')">Bouton 4</h2>
+    <!-- V3 - écouteurs d'évènement onclick en JS-->
+    <h3>Bouton 5</h3>
+    <!-- V4 - écouteurs d'évènement en JS avec "data" et boucle sur le querySelectorAll -->
+    <h4 data-couleur="purple">Bouton 6</h4>
+    <h4 data-couleur="yellow">Bouton 7</h4>
+    <h4 data-couleur="teal">Bouton 8</h4>
+    <!-- V5 - AddEventListener -->
+    <h5>Bouton 9</h5>
+</body>
+</html>

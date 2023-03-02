@@ -1,0 +1,23 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background-color: #5f9ea0;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+div h2 {
+    font-size: 60px;
+    margin:0;
+}
