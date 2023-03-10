@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canettes</title>
+    <script defer src="js/main.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Zone 1 - Gauche -->
+    <div id="zone1">
+        <div id="zoneTexte">
+        </div>
+    </div>
+    <!-- Zone 2 - Droite -->
+    <div id="zone2">
+        <h1>Personnalisez votre cannette</h1>
+        <h2>Couleur de Canette</h2>
+        <div id="choixCouleurs">
+            <img src="img/can_bleue.png" alt="bleue">
+            <img src="img/can_jaune.png" alt="jaune">
+            <img src="img/can_rouge.png" alt="rouge">
+            <img src="img/can_verte.png" alt="verte">
+        </div>
+            <h2>TEXTE</h2>
+            <input type="text" name="texte" id="ligne" placeholder="votre texte">
+            <h3>Position</h3>
+            <a class="bt" id="posGauche">&gt;</a>
+            <a class="bt" id="posDroite">&lt;</a>
+            <a class="bt" id="posHaut">^</a>
+            <a class="bt" id="posBas">v</a>
+            <h3>Police</h3>
+            <a class="bt" data-police="Arial">Arial</a>
+            <a class="bt" data-police="Verdana">Verdana</a>
+            <a class="bt" data-police="Courrier">Courrier</a>
+            <h3>Couleur</h3>
+            <a class="bt" data-couleur="black">Noir</a>
+            <a class="bt" data-couleur="white">Blanc</a>
+            <a class="bt" data-couleur="blue">Bleu</a>
+            <a class="bt" data-couleur="yellow">Jaune</a>
+            <a class="bt" data-couleur="red">Rouge</a>
+            <a class="bt" data-couleur="green">Vert</a>
+            <h3>Taille</h3>
+            <a class="bt" id="taillePetit">T-</a>
+            <a class="bt" id="tailleGrand">T+</a>
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,11 @@
+body {
+    background-color: cornflowerblue;
+}
+
+#poppy {
+    width: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 200ms;
+}

@@ -20,4 +20,3 @@ function maj(){
 }
 
 //setInterval(maj,1000)
-

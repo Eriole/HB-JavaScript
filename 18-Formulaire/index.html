@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire</title>
+    <script defer src="js/main.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="serveur.php" method="post" onsubmit="return verif(this);">
+        <h1>Contact</h1>
+        <div class="affichageErreurs"></div>
+        <input type="text" name="nom" placeholder="Votre nom">
+        <input type="text" name="email" placeholder="Votre email">
+        <textarea id="" name="msg" placeholder="Votre message" onkeyup="compteur(this)"></textarea>
+        <p class="info">10 caractères restants</p>
+        <input type="submit">
+    </form>
+
+</body>
+</html>

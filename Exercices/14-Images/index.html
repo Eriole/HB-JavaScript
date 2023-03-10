@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMAGES</title>
+    <script defer src="js/main.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+<body>
+    <!-- V1- V2- V3 -->
+    <img src="img/1.jpg" alt="" data-imgalt="img/2.jpg" class="survolable">
+    <img src="img/3.jpg" alt="" data-imgalt="img/4.jpg" class="survolable">
+
+    <!-- V4 -->
+    <img    src="img/1.jpg" 
+            alt="image1" 
+            onmouseover="changerImg(this,'img/2.jpg')" 
+            onmouseout="changerImg(this,'img/1.jpg')" >
+    <img    src="img/3.jpg" 
+            alt="image2" 
+            onmouseover="changerImg(this,'img/4.jpg')" 
+            onmouseout="changerImg(this,'img/3.jpg')" >
+
+    <!-- V5, ecouteurs d'évènements en HTML, avec passage d'attributs (pas de JS séparé) -->
+    <img src="img/1.jpg" alt="image1" onmouseover="this.src='img/2.jpg'" onmouseout="this.src='img/1.jpg'" >
+    <img src="img/3.jpg" alt="image2" onmouseover="this.src='img/4.jpg'" onmouseout="this.src='img/3.jpg'" >
+
+    <!-- V6-Animation) -->
+    <img    src="img/1.jpg" 
+        alt="image1" 
+        onmouseover="animationSurvol(this,'img/2.jpg')" 
+        onmouseout="animationSortie(this,'img/1.jpg')" >
+    <img    src="img/3.jpg" 
+        alt="image2" 
+        onmouseover="animationSurvol(this,'img/4.jpg')" 
+        onmouseout="animationSortie(this,'img/3.jpg')" >
+</body>
+</html>
